@@ -1,0 +1,36 @@
+2023-11-30 16:35:13,599 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:14,005 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:14,131 INFO /usr/local/bin/bench set-config -g db_host db
+2023-11-30 16:35:14,732 INFO /usr/local/bin/bench schedule
+2023-11-30 16:35:15,957 INFO /usr/local/bin/bench set-config -gp db_port 3306
+2023-11-30 16:35:17,019 INFO /usr/local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2023-11-30 16:35:18,221 INFO /usr/local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2023-11-30 16:35:19,267 INFO /usr/local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2023-11-30 16:35:19,574 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:20,160 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:20,664 INFO /usr/local/bin/bench set-config -gp socketio_port 9000
+2023-11-30 16:35:25,405 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:25,795 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:31,056 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:31,388 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:37,101 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:37,349 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:43,884 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:44,125 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:35:52,430 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:35:52,604 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:36:04,109 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:36:04,162 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:37:47,665 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:37:47,794 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:37:48,334 INFO /usr/local/bin/bench schedule
+2023-11-30 16:37:48,630 INFO /usr/local/bin/bench set-config -g db_host db
+2023-11-30 16:37:50,230 INFO /usr/local/bin/bench set-config -gp db_port 3306
+2023-11-30 16:37:51,393 INFO /usr/local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2023-11-30 16:37:52,470 INFO /usr/local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2023-11-30 16:37:55,015 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:37:55,095 INFO /usr/local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2023-11-30 16:37:55,115 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-11-30 16:37:56,366 INFO /usr/local/bin/bench set-config -gp socketio_port 9000
+2023-11-30 16:38:00,719 INFO /usr/local/bin/bench worker --queue short,default
+2023-11-30 16:38:00,741 INFO /usr/local/bin/bench worker --queue long,default,short

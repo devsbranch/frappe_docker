@@ -1,0 +1,1 @@
+docker build -t devsbranch/erpnext:dtl  -f images/production/Containerfile . --no-cache && docker-compose -f pwd.yml up -d
